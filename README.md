@@ -14,12 +14,12 @@ This project uses Ruby and Rails framework. To start contributing, clone or fork
 **Explanation for basic features:**
 
 ### 1. Attributes for trainers:
-+ Name: You should enter the trainer's name, but the length is less than 50 characters
-+ Height: Measured in cm, with maximum 3 number limit 
-+ Weight: Measured in pounds, with maximum 3 number limit
-+ Level: The level of the trainer is based on the number of Tokimons he/she has - every three get a level up
++ Name: Users provided name with length limit of 50 characters.
++ Height: A integer value with maximum three digits represents the height in centimeters. 
++ Weight: A integer value with maximum three digits represents the weight in pounds.
++ Level: A user gains one level up by capturing three new Tokimons.
 + Address
-+ Email: The email which the trainer input should be in the correct email format. Such as  xxxx@xxx.xxx
++ Email: A valid email address agrees with the format of name@email.xxx.
 
 ### 2. Attributes for the Tokimons:
 + weight: Measured in Pounds, with maximum 3 number limit
