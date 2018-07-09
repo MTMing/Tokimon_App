@@ -22,10 +22,10 @@ This project uses Ruby and Rails framework. To start contributing, clone or fork
 + Email: A valid email address agrees with the format of name@email.xxx.
 
 ### 2. Attributes for the Tokimons:
-+ weight: Measured in Pounds, with maximum 3 number limit
-+ height: Measured in cm, with maximum 3 number limit
-+ Fly, Fight, Fire, Water, Electric, Ice: The ability of the Tokimons, with an integer between 0 and 100
-+ total: The sum of the abilities of the tokiomon
++ weight: A integer value with maximum three digits represents the weight in pounds.
++ height: A integer value with maximum three digits represents the height in centimeters.
++ special ability: An integer value between 0 and 100 represents a Tokimons' ablity including fly, fight, fire, water, electric, and ice.
++ total: The sum of all special ability value.
 
 ### 3. Bar chart
 + For displaying the data clearly, I add a bar chart for the trainer's level and add a bar chart for all Tokimons' total abilities
