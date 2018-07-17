@@ -14,7 +14,7 @@ This project uses Ruby and Rails framework. To start contributing, clone or fork
 **Explanation for basic features:**
 
 ### 1. Attributes for trainers:
-+ Name: Users provided name with length limit of 50 characters.
++ Name: User-provided name with a length limit of 50 characters.
 + Height: A integer value with maximum three digits represents the height in centimeters. 
 + Weight: A integer value with maximum three digits represents the weight in pounds.
 + Level: A user gains one level up by capturing three new Tokimons.
